@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ejercicio2 ul {
+            padding: 30px;
+        }
+
+
+        .ejercicio2 li {
+            list-style: none;
+            display: inline-block;
+            color: orange;
+            font-size: 22px;
+            margin-left: 25px;
+            border: 1px solid black;
+            font-style: italic;
+            padding: 30px;
+        }
+
+        table {
+            width: 400px;
+            margin-left: 51px;
+            border: solid 1px black;
+        }
+
+        th {
+            border: solid 1px black;
+        }
+
+        td {
+            border: solid 1px black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sebastian Castaño Restrepo</h1>
+
+    <h1>Evaluación M2</h1>
+
+    <!-- CSS inline -->
+    <!-- Etiquetas HTML: img, p -->
+    <!-- Atributos CSS: color, background-color, border-radius, text-align -->
+    <div class="contenedor1"
+        style="width: 800px; height: 800px; background: rgb(23, 22, 22); border-radius: 5px; margin-left: 25%;">
+        <h1>Ejercicio 1</h1>
+        <img src="./img/portrait-2899779_640.png" alt="dibujo de lineas de colores">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis corporis vero ratione aliquam
+            assumenda deserunt temporibus quod aut molestias beatae a delectus aperiam magni facilis illo inventore
+            tempore, saepe facere?</p>
+    </div>
+
+    <!-- CSS interno -->
+    <!-- Selectores de etiqueta -->
+    <!-- Etiquetas HTML: ul, li, table, thead , tbody, tr, td, th  -->
+    <!-- Atributos CSS: Margin, Padding, font-style, color , background-color -->
+
+    <div class="ejercicio2">
+        <h1>Ejercicio 2</h1>
+        <ul>
+            <li>Inicio</li>
+            <li>Menu</li>
+            <li>Table</li>
+        </ul>
+        <table>
+            <thead>
+                <th colspan="2">Area</th>
+                <th>Altura</th>
+                <th colspan="2">Ancho</th>
+                <th colspan="2">Total</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" rowspan="2">25m</td>
+                    <td>12m</td>
+                    <td colspan="2" rowspan="2">5m</td>
+                    <td colspan="2" rowspan="2">1500m3</td>
+                </tr>
+                <tr>
+                    <td>32m</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">27m</td>
+                    <td rowspan="2" colspan="2">33m</td>
+                    <td colspan="2">12m</td>
+                    <td rowspan="2">10692m3</td>
+                </tr>
+                <tr>
+                    <td>16m</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">12m</td>
+                    <td rowspan="2" colspan="2">21m</td>
+                    <td rowspan="2" colspan="2">15m</td>
+                    <td rowspan="2" colspan="2">6615m3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- CSS externo -->
+    <!-- Selectores de identificación -->
+    <!-- Etiquetas HTML: ul, li, select, option -->
+    <!-- Atributos CSS: Border, position, z-index, cursor  -->
+
+    <div class="punto3">
+        <h1>Ejercicio 3</h1>
+        <ul class="seleccion">
+            <li>Perros</li>
+            <li>Gatos</li>
+        </ul>
+        <select name="perros" id="perros">
+            <option value="Border Collie">Border Collie</option>
+            <option value="Pastor Aleman">Pastor Aleman</option>
+        </select>
+        <select name="Gatos" id="Gatos">
+            <option value="Gato Belga">Gato Belga</option>
+            <option value="Gato Tricolor">Gato Tricolor</option>
+        </select>
+
+    </div>
+
+    <!-- CSS externo -->
+    <!-- Selectores de clase -->
+    <!-- Etiquetas HTML: ul, li, button -->
+    <!-- Atributos CSS: Espaciado entre palabras -->
+    <!-- SeudoClases: nth-of-type(1):hover -->
+    <div class="boton">
+        <h1>Ejercicio 4</h1>
+        <ul>
+            <li><button>Avanzar</button></li>
+            <li><button>Retroceder</button></li>
+            <li><button>Izquierda</button></li>
+            <li><button>Derecha</button></li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
